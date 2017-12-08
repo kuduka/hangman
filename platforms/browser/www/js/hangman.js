@@ -138,9 +138,9 @@ var $hangman = {
     }
     else {
       $hangman.life++;
-      navigator.notification.vibrate(300);
       $("#hangman-f" + $hangman.life).css("opacity", 1);
       $hangman.check_loser();
+      navigator.vibrate(200);
     }
   },
 }
@@ -151,7 +151,7 @@ if ('addEventListener' in document) {
   }, false);
   document.addEventListener("deviceready", function(){
     var onShake = function () {
-      alert('shaking!');
+      $hangman.reset_game()
     };
     var onError = function () {
       console.log('Error Shaking');
