@@ -622,6 +622,24 @@ module.exports = [
         "clobbers": [
             "shake"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+        "id": "cordova-plugin-vibration.notification",
+        "pluginId": "cordova-plugin-vibration",
+        "merges": [
+            "navigator.notification",
+            "navigator"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-vibration/src/browser/Vibration.js",
+        "id": "cordova-plugin-vibration.Vibration",
+        "pluginId": "cordova-plugin-vibration",
+        "merges": [
+            "navigator.notification",
+            "navigator"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -631,7 +649,8 @@ module.exports.metadata =
     "cordova-plugin-device-motion": "1.2.5",
     "cordova-plugin-file": "4.1.1",
     "cordova-plugin-splashscreen": "3.2.2",
-    "cordova-plugin-shake": "0.6.0"
+    "cordova-plugin-shake": "0.6.0",
+    "cordova-plugin-vibration": "2.1.6"
 }
 // BOTTOM OF METADATA
 });

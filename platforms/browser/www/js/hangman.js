@@ -151,7 +151,13 @@ if ('addEventListener' in document) {
   }, false);
   document.addEventListener("deviceready", function(){
     var onShake = function () {
-      $hangman.reset_game()
+      if ($hangman.guessword != '') {
+        $hangman.reset_game()
+        $hangman.inigame = true;
+        $hangman.guessword = $hangman.guessword.toUpperCase();
+        $hangman.maxfound = $hangman.guessword.length;
+        $hangman.draw_word($hangman.guessword);
+      }
     };
     var onError = function () {
       console.log('Error Shaking');

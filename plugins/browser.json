@@ -21,6 +21,9 @@
         },
         "cordova-plugin-shake": {
             "PACKAGE_NAME": "com.phonegap.hangman"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.phonegap.hangman"
         }
     },
     "dependent_plugins": {}
