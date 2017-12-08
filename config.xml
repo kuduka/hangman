@@ -17,6 +17,7 @@
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <platform name="android" />
     <preference name="SplashScreen" value="/img/logo.png" />
+    <preference name="AutoHideSplashScreen" value="false" />
     <preference name="SplashScreenDelay" value="2000" />
     <preference name="SplashScreenBackgroundColor" value="black" />
     <preference name="ShowSplashScreen" value="true" />
