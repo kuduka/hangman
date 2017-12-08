@@ -150,6 +150,7 @@ if ('addEventListener' in document) {
     $hangman.ini();
   }, false);
   document.addEventListener("deviceready", function(){
+    navigator.splashscreen.show();
     var onShake = function () {
       if ($hangman.guessword != '') {
         $hangman.reset_game()
