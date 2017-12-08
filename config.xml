@@ -16,13 +16,11 @@
     <plugin name="cordova-plugin-shake" source="npm" spec="~0.6.0" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <platform name="android" />
-    <platform name="browser">
-        <preference name="SplashScreen" value="/img/logo.png" />
-        <preference name="SplashScreenDelay" value="2000" />
-        <preference name="SplashScreenBackgroundColor" value="black" />
-        <preference name="ShowSplashScreen" value="true" />
-        <preference name="SplashScreenWidth" value="600" />
-        <preference name="SplashScreenHeight" value="300" />
-    </platform>    
-     <icon src="/img/icon.png" />
+    <preference name="SplashScreen" value="/img/logo.png" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="SplashScreenBackgroundColor" value="black" />
+    <preference name="ShowSplashScreen" value="true" />
+    <preference name="SplashScreenWidth" value="600" />
+    <preference name="SplashScreenHeight" value="300" />
+    <icon src="/img/icon.png" />
 </widget>
