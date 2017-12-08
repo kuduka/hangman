@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.phonegap.hangman"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.phonegap.hangman"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.phonegap.hangman"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.phonegap.hangman"
+        },
+        "cordova-plugin-shake": {
+            "PACKAGE_NAME": "com.phonegap.hangman"
+        }
+    },
+    "dependent_plugins": {}
+}

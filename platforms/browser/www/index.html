@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/hangman.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <strong>HangMan Game</strong>
+      <p>You have 7 tries in order to guess the word, good luck!</p>
+    </div>
+    <div id="controls">
+      <button id="init-game">Start Game</button>
+    </div>
+    <div id="gword" class="gword">
+    </div>
+    <div class="alphabet">
+    </div>
+    <div id="dialog-message" title="New Game!" class="modal">
+      <p> Choose a word to be guessed: </p>
+      <input type="text" name="guessword" id="guessword" required>
+      <span id="errguessword" class="errguessword"> </span>
+    </div>
+    <div id="dialog-winner" title="Winner!" class="modal">
+      <p> You're a winner congratulations! </p>
+    </div>
+    <div id="dialog-loser" title="Loser!" class="modal">
+      <p> You're a loser, try again! </p>
+    </div>
+    <div id="hangman-graphic">
+      <img class="hangman" id="hangman-f0" src="img/hangman0.jpg">
+      <img class="hangman" id="hangman-f1" src="img/hangman1.jpg">
+      <img class="hangman" id="hangman-f2" src="img/hangman2.jpg">
+      <img class="hangman" id="hangman-f3" src="img/hangman3.jpg">
+      <img class="hangman" id="hangman-f4" src="img/hangman4.jpg">
+      <img class="hangman" id="hangman-f5" src="img/hangman5.jpg">
+      <img class="hangman" id="hangman-f6" src="img/hangman6.jpg">
+      <img class="hangman" id="hangman-f7" src="img/hangman7.jpg">
+    </div>
+  </div>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/fastclick.js"></script>
+  <script type="text/javascript" src="js/hangman.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.hangman" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>hangman</name>
+    <description>
+        A hangman game PhoneGap app.
+    </description>
+    <author email="support@hangman.com" href="http://hangman.com">
+        HangMan Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="/img/icon.png" />
+    <preference name="SplashScreen" value="/img/logo.png" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="SplashScreenBackgroundColor" value="black" />
+    <preference name="ShowSplashScreen" value="true" />
+    <preference name="SplashScreenWidth" value="600" />
+    <preference name="SplashScreenHeight" value="300" />
+</widget>

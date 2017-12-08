@@ -1,0 +1,59 @@
+.jumbotron {
+  text-align: center;
+  margin-top: 1px;
+  width: 80%;
+  height: 120px;
+}
+
+.gword, .alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  vertical-align: middle;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.letter {
+  align-self: flex-start;
+  width: 30px;
+  margin: 3px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  background-color: DeepSkyBlue;
+  cursor: pointer;
+}
+
+.letter-disabled {
+  background-color: lightgrey;
+  cursor: default;
+}
+
+.errguessword{
+  color: red;
+}
+
+.gletter {
+  align-self: flex-start;
+  width: 30px;
+  margin: 3px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  box-shadow: 0 .1em 0 0 black;
+  margin-bottom: 20px;
+}
+
+.hangman {
+  opacity: 0;
+  max-width: 20%;
+  position: absolute;
+}
+
+#hangman-f0 {
+  opacity: 1;
+}
